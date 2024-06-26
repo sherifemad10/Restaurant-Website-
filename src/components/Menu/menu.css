@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
+
+
+.menu{
+  background-color: #e7d9c1;
+  width: 100%;
+  padding: 30px 10px;
+  text-align: center;
+}
+
+.menu h2{
+  font-size: 40px;
+  font-family: "Merienda", cursive;
+  color: #151931;
+}
+
+.menuCard{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+
+/* @media (max-width: 420px){
+  .menu{
+    width: 100;
+  }
+
+} */
+
+
+
+

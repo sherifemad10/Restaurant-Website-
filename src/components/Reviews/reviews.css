@@ -1,0 +1,101 @@
+.reviews {
+  width: 100%;
+  background-color: #e2caa7;
+  background-attachment: fixed;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.reviews h2 {
+  font-size: 40px;
+  font-family: "Merienda", cursive;
+  color: #151931;
+  padding: 30px 0;
+}
+
+/* ===================
+     review Cards
+  ====================*/
+
+.reviewCards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  width: 90%;
+  overflow-x: scroll;
+  margin: auto;
+  background-color: #f4eee2;
+  border-radius: 20px;
+}
+.reviewCards::-webkit-scrollbar {
+  display: none;
+}
+
+/* ===================
+     review Card
+  ====================*/
+
+.reviewCards .reviewCard {
+  min-width: 250px;
+  width: 35%;
+  height: 300px;
+  padding: 20px 10px;
+  padding: 10px 12px;
+  margin: 20px 10px;
+  background-color: #151931;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.reviewCards .reviewCard:first-child {
+  margin-left: 300px;
+}
+
+.reviewCard h3 {
+  font-size: 20px;
+  color: #fff;
+  font-family: "Playwrite AU SA", cursive;
+}
+
+/* ===================
+     review Card img
+  ====================*/
+
+.reviewCard img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+/* ===================
+     review Card rate
+  ====================*/
+
+.reviewCard .rate .star {
+  font-size: 20px;
+  color: gold;
+  margin: 5px 2px;
+}
+
+/* ===================
+     review Dec
+  ====================*/
+
+.reviewDec p {
+  font-size: 13px;
+  color: #fff;
+  font-family: "Playwrite AU TAS", cursive;
+}
+
+/* ===================
+     Responsive
+  ====================*/
+
+@media (max-width: 541px) {
+
+
+  .reviewCards .reviewCard:first-child {
+    margin-left: 80rem;
+  }
+ }

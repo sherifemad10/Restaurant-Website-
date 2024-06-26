@@ -1,0 +1,100 @@
+.gallary{
+  background-color: #d7bf9a;
+  width: 100%;
+  padding: 30px 10px;
+  text-align: center;
+}
+
+.gallary h2{
+  font-size: 40px;
+  font-family: "Merienda", cursive;
+  color: #151931;
+  margin-bottom: 30px;
+}
+
+
+.gallaryCard{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin: 30px;
+  width: 90%;
+  flex-wrap: wrap;
+
+}
+
+.gallaryCard .cards{
+  width: 23rem;
+  height: 15rem;
+  border-radius: 10px;
+  background-color: #151931;
+  position: relative;
+  cursor: pointer;
+}
+
+.gallaryCard .cards img{
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.gallaryCard .cards h3{
+  font-size: 30px;
+  width: 100%;
+  display: none;
+}
+
+.gallaryCard .cards:hover .cardTittle1{
+  display: block;
+}
+
+
+
+.gallaryCard .cards:hover::before{
+  content: "";
+  position: absolute;
+  background-color: #151931a5;
+  color: aliceblue;
+  font-size: 25px;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  border-radius: 20px;
+}
+
+
+
+.gallaryCard .cards h3{
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: aliceblue;
+}
+
+.gallary h3{
+  font-size: 40px;
+  font-family: "Merienda", cursive;
+  color: #61398F;
+}
+
+/* line */
+/* .space{
+  display: flex;
+  flex-direction: column;
+} */
+.line{
+  width: 70%;
+  height: 5px;
+  background-color: #ffe4c0;
+}
+
+/* @media (max-width: 541px ){
+  .gallary{
+    width: 100vh;
+  }
+} */
+

@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Pacifico&display=swap");
+
+.navbar {
+  width: 100%;
+  background-color: #fdf7ed;
+  box-shadow: 10px 10px 36px -6px rgba(14, 14, 14, 0.75);
+  -webkit-box-shadow: 10px 10px 36px -6px rgba(14, 14, 14, 0.75);
+  -moz-box-shadow: 10px 10px 36px -6px rgba(14, 14, 14, 0.75);
+  padding: 20px 10px;
+  position: fixed;
+  z-index: 2;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 30px;
+}
+
+.navbar .logo h1 {
+  font-family: "Caveat", cursive;
+  font-size: 2.5rem;
+  cursor: pointer;
+}
+
+/* ==================
+      navList
+ ====================*/
+
+.navList ul {
+  display: flex;
+  align-items: center;
+}
+.navList ul li {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  padding: 0 10px;
+}
+.navList ul li::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  left: -100%;
+  height: 1px;
+  background: #262626;
+  transition: 0.3s;
+}
+.navList ul li:hover:before {
+  left: 100%;
+}
+.navList ul li a {
+  position: relative;
+  display: block;
+  text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 600;
+  padding: 0px 10px;
+  font-size: 18px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.3s;
+  color: transparent;
+}
+.navList ul li a::before,
+.navList ul li a::after {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  color: #262626;
+  box-sizing: border-box;
+  transition: 0.3s;
+  transition-delay: 0.25s;
+}
+.navList ul li a::before {
+  -webkit-clip-path: polygon(0 0, 100% 3%, 100% 50%, 0 50%);
+  clip-path: polygon(0 0, 100% 3%, 100% 50%, 0 50%);
+}
+.navList ul li a:hover::before {
+  color: #f00;
+  transform: translate(10px, -2%);
+}
+.navList ul li a::after {
+  -webkit-clip-path: polygon(0 50%, 100% 50%, 100% 100%, 0 100%);
+  clip-path: polygon(0 50%, 100% 50%, 100% 100%, 0 100%);
+}
+.navList ul li a:hover::after {
+  color: #f00;
+  transform: translate(-10px, 2%);
+}
+
+
+/* ==================
+       hamburger
+ ====================*/
+
+.hamburger {
+  cursor: pointer;
+  display: none;
+}
+
+.hamburger input {
+  display: none;
+}
+
+.hamburger svg {
+  height: 3em;
+  transition: transform 600ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.line {
+  fill: none;
+  stroke: rgb(0, 0, 0);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 3;
+  /* Define the transition for transforming the Stroke */
+  transition: stroke-dasharray 600ms cubic-bezier(0.4, 0, 0.2, 1),
+    stroke-dashoffset 600ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.line-top-bottom {
+  stroke-dasharray: 12 63;
+}
+
+.hamburger input:checked + svg {
+  transform: rotate(-45deg);
+}
+
+.hamburger input:checked + svg .line-top-bottom {
+  stroke-dasharray: 20 300;
+  stroke-dashoffset: -32.42;
+}
+
+/* ==================
+        Responsive
+ ====================*/
+
+@media (max-width: 1174px) {
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .navList {
+    display: none;
+    flex-direction: column;
+    width: 350px;
+    background-color: #e7d1bbe6;
+    position: absolute;
+    right: 0;
+    top: 35px;
+    border-radius: 10px;
+    z-index: -1;
+    padding: 20px 0;
+  }
+
+  .navList ul {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 40px;
+  }
+
+  .navList ul li a {
+    font-size: 30px;
+    font-weight: 700;
+  }
+
+  .hamburger {
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: 16px;
+    font-size: 20px;
+    padding: 10px 5px;
+  }
+
+  .box {
+    margin-bottom: 20px;
+    background-color: #151931;
+    width: 250px;
+  }
+
+  .text-button {
+    font-size: 25px;
+  }
+}

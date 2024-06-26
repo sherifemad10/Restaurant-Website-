@@ -1,0 +1,23 @@
+/* color for background */
+.card-front__tp--drinks {
+  background: linear-gradient(to bottom, #8d99ae, #2b2d42);
+}
+
+.dirnk {
+  display: flex;
+  align-items: center;
+  padding: 14px 0;
+}
+
+.dirnk h5 {
+  position: absolute;
+  left: 0;
+  cursor: pointer;
+}
+
+.dirnk span {
+  position: absolute;
+  right: 0;
+  color: #ff3d3d;
+  font-weight: 800;
+}

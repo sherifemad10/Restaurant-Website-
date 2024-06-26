@@ -1,0 +1,68 @@
+.contact {
+  width: 100%;
+  background-color: #ffecda;
+  background-attachment: fixed;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 40px;
+  font-family: "Merienda", cursive;
+  color: #151931;
+  padding: 30px 0;
+}
+
+/* ===================
+     contactCon
+  ====================*/
+
+  .contactCon{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 50px;
+  }
+
+  /* ===================
+     details
+  ====================*/
+
+  .details .phone,.email,.location{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .details .contactIcons{
+    font-size: 25px;
+    color: #FF4D4D;
+    margin: 10px 20px;
+  }
+
+  .details span{
+    font-size: 16px;
+    font-weight: 700;
+    color: #414654;
+    font-family: "Playwrite AU SA", cursive;
+  }
+
+  .details p{
+    font-size: 20px;
+    color: #151931;
+  }
+
+    /* ===================
+            Map
+  ====================*/
+
+  .contactCon .map iframe{
+     border-radius: 20px;
+  }
+
+  @media (max-width: 541px ){
+    .contactCon .map iframe{
+      width: 100%;
+      height: 350px;
+   }
+  }
