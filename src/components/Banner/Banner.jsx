@@ -13,7 +13,7 @@ const Banner = () => {
 
   const [changeImg, setchangeImg] = useState(mainImg)
   return (
-    <div className='banner' id='home' data-aos= "fade-down">
+    <div className='banner' id='home'>
 
          {/* Left Side */}
 
