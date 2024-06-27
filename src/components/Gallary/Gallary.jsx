@@ -46,32 +46,32 @@ const Gallary = () => {
  <div className='gallaryCard'>
 
  <div className='cards'>
-    <img src={GrilledChickenBreast} alt='Grilled Chicken Breast'/>
+    <img src={GrilledChickenBreast} alt='Grilled Chicken Breast' loading="lazy"/>
     <h3 className='cardTittle1'>Grilled Chicken Breast</h3>
   </div>
 
   <div className='cards'>
-  <img src= {ChickenCurry} alt='Chicken Curry'/>
+  <img src= {ChickenCurry} alt='Chicken Curry' loading="lazy"/>
     <h3 className='cardTittle1'>Chicken Curry</h3>
   </div> 
 
   <div className='cards'>
-  <img src= {SteakFrites} alt='Steak Frites'/>
+  <img src= {SteakFrites} alt='Steak Frites' loading="lazy"/>
     <h3 className='cardTittle1'>Steak Frites</h3>
   </div>
 
   <div className='cards'>
-  <img src= {GrilledSalmon} alt='Grilled Salmon'/>
+  <img src= {GrilledSalmon} alt='Grilled Salmon' loading="lazy"/>
     <h3 className='cardTittle1'>Grilled Salmon</h3>
   </div>
 
   <div className='cards'>
-  <img src= {FishTacos} alt='Fish Tacos'/>
+  <img src= {FishTacos} alt='Fish Tacos' loading="lazy"/>
   <h3 className='cardTittle1'>Fish Tacos</h3>
   </div>
 
   <div className='cards'>
-  <img  src= {BeefStroganoff} alt='Beef Stroganoff'/>
+  <img  src= {BeefStroganoff} alt='Beef Stroganoff' loading="lazy"/>
   <h3 className='cardTittle1'>Beef Stroganoff</h3>
   </div>
 
@@ -83,32 +83,32 @@ const Gallary = () => {
   {/* drinks */}
 
   <div className='cards'>
-  <img src= {SoftDrinks} alt='Soft Drinks'/>
+  <img src= {SoftDrinks} alt='Soft Drinks' loading="lazy"/>
   <h3 className='cardTittle1'>Soft Drinks</h3>
   </div>
 
   <div className='cards'>
-  <img src= {Lemonade} alt='Nachos'/>
+  <img src= {Lemonade} alt='Nachos' loading="lazy"/>
   <h3 className='cardTittle1'>Lemonade</h3>
   </div>
 
   <div className='cards'>
-  <img src= {FruitJuice} alt='Fruit Juice'/>
+  <img src= {FruitJuice} alt='Fruit Juice' loading="lazy"/>
   <h3 className='cardTittle1'>Fruit Juice</h3>
   </div>
 
   <div className='cards'>
-  <img src= {Coffee} alt='Coffee'/>
+  <img src= {Coffee} alt='Coffee' loading="lazy"/>
   <h3 className='cardTittle1'>Coffee</h3>
   </div>
 
   <div className='cards'>
-  <img src= {HotTea} alt='Hot Tea'/>
+  <img src= {HotTea} alt='Hot Tea' loading="lazy"/>
   <h3 className='cardTittle1'>Hot Tea</h3>
   </div>
 
   <div className='cards'>
-  <img src= {HotChocolate} alt='Hot Chocolate'/>
+  <img src= {HotChocolate} alt='Hot Chocolate' loading="lazy"/>
   <h3 className='cardTittle1'>Hot Chocolate</h3>
   </div>
 
@@ -120,32 +120,32 @@ const Gallary = () => {
 {/* Snacks */}
 
 <div className='cards'>
-<img src= {MozzarellaSticks} alt='Mozzarella Sticks'/>
+<img src= {MozzarellaSticks} alt='Mozzarella Sticks' loading="lazy"/>
 <h3 className='cardTittle1'>Mozzarella Sticks</h3>
   </div>
 
   <div className='cards'>
-  <img src= {Nachos} alt='Nachos'/>
+  <img src= {Nachos} alt='Nachos' loading="lazy"/>
   <h3 className='cardTittle1'>Nachos</h3>
   </div>
 
   <div className='cards'>
-  <img src= {OnionRings} alt='Onion Rings'/>
+  <img src= {OnionRings} alt='Onion Rings'loading="lazy"/>
   <h3 className='cardTittle1'>Onion Rings</h3>
   </div>
 
   <div className='cards'>
-  <img src= {Bruschetta} alt='Bruschetta'/>
+  <img src= {Bruschetta} alt='Bruschetta' loading="lazy"/>
   <h3 className='cardTittle1'>Bruschetta</h3>
   </div>
 
   <div className='cards'>
-  <img src= {SpringRolls} alt='Spring Rolls'/>
+  <img src= {SpringRolls} alt='Spring Rolls' loading="lazy"/>
   <h3 className='cardTittle1'>Spring Rolls</h3>
   </div>
 
   <div className='cards'>
-  <img src= {MiniTacos} alt='Mini Tacos'/>
+  <img src= {MiniTacos} alt='Mini Tacos' loading="lazy"/>
   <h3 className='cardTittle1'>Mini Tacos</h3>
   </div>
 
@@ -158,32 +158,32 @@ const Gallary = () => {
 {/* Dessert */}
 
 <div className='cards'>
-<img src= {Cheesecake} alt='Cheese cake'/>
+<img src= {Cheesecake} alt='Cheese cake' loading="lazy"/>
 <h3 className='cardTittle1'>Cheese cake</h3>
   </div>
 
   <div className='cards'>
-  <img src= {ApplePie} alt='Apple Pie'/>
+  <img src= {ApplePie} alt='Apple Pie' loading="lazy"/>
   <h3 className='cardTittle1'>Apple Pie</h3>
   </div>
 
   <div className='cards'>
-  <img src= {ChocolateMousse} alt='Chocolate Mousse'/>
+  <img src= {ChocolateMousse} alt='Chocolate Mousse' loading="lazy"/>
   <h3 className='cardTittle1'>Chocolate Mousse</h3>
   </div>
 
   <div className='cards'>
-  <img src= {FruitTart} alt='Fruit Tart'/>
+  <img src= {FruitTart} alt='Fruit Tart' loading="lazy"/>
   <h3 className='cardTittle1'>Fruit Tart</h3>
   </div>
 
   <div className='cards'>
-  <img src= {CarrotCake} alt='Carrot Cake'/>
+  <img src= {CarrotCake} alt='Carrot Cake' loading="lazy"/>
   <h3 className='cardTittle1'>Carrot Cake</h3>
   </div>
 
   <div className='cards'>
-  <img src= {LemonSorbet} alt='Lemon Sorbet'/>
+  <img src= {LemonSorbet} alt='Lemon Sorbet' loading="lazy"/>
   <h3 className='cardTittle1'>Lemon Sorbet</h3>
   </div>
   
