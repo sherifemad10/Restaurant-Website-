@@ -104,18 +104,18 @@ const Banner = () => {
 
         <div className='rightSideCon'>
           <div className='mainImg'>
-            <img src={changeImg} alt='Main Img' name="main"/>  
+            <img src={changeImg} alt='Main Img' name="main" loading="lazy"/>  
           </div> {/* // mainImg */}
           
           
           
           <div className='subImg'>
-            <img src={mainImg} alt='Main Img' onClick={()=> setchangeImg(mainImg)} /> 
-            <img src={subImg} alt='Sub Img' onClick={()=> setchangeImg(subImg)} />
-            <img src={subImg2} alt='Sub Img' onClick={()=> setchangeImg(subImg2)} />
-            <img src={subImg3} alt='Sub Img' onClick={()=> setchangeImg(subImg3)} />
-            <img src={subImg4} alt='Sub Img' onClick={()=> setchangeImg(subImg4)} />
-            <img src={subImg5} alt='Sub Img'onClick={()=> setchangeImg(subImg5)} />
+            <img src={mainImg} alt='Main Img' onClick={()=> setchangeImg(mainImg)} loading="lazy"/> 
+            <img src={subImg} alt='Sub Img' onClick={()=> setchangeImg(subImg)} loading="lazy"/>
+            <img src={subImg2} alt='Sub Img' onClick={()=> setchangeImg(subImg2)} loading="lazy"/>
+            <img src={subImg3} alt='Sub Img' onClick={()=> setchangeImg(subImg3)} loading="lazy"/>
+            <img src={subImg4} alt='Sub Img' onClick={()=> setchangeImg(subImg4)} loading="lazy"/>
+            <img src={subImg5} alt='Sub Img'onClick={()=> setchangeImg(subImg5)} loading="lazy"/>
           </div> {/* // subImg */}
           
         </div> {/* // rightSideCon */}
