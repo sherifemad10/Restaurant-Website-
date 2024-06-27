@@ -17,7 +17,7 @@ const Reviews = () => {
             
               <div  className="reviewCard">
                 <div className="personalName">
-                  <img src={item.img} alt="Ahmed" />
+                  <img src={item.img} alt="Ahmed" loading="lazy"/>
                   <h3>{item.name}</h3>
                 </div>
 
